@@ -116,7 +116,7 @@ const Carousel = ({ setClickSelectedProduct }) => {
                   />
                 </div>
               </div>
-              <div className="prev-next bg-transparent w-full h-full  absolute top-0 left-0 justify-between items-center group-hover:flex">
+              <div className="prev-next bg-transparent w-full h-full hidden absolute top-0 left-0 justify-between items-center group-hover:flex">
                 <button
                   aria-label="prev"
                   className="swiper-button-prev text-2xl h-full p-4  hover:bg-[rgba(0,0,0,0.2)]"
