@@ -10,7 +10,7 @@ const Header = ({ handleOpen }) => {
   const dispatch = useDispatch();
 
   return (
-    <header className="w-full border">
+    <header className="w-full">
       <div className="max-w-7xl mx-auto p-4">
         <div className="flex flex-col lg:flex-row h-10 justify-between lg:items-center ">
           <div className="logo text-black font-bold text-xl flex justify-start lg:justify-center items-center gap-1">
